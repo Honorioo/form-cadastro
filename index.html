@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro</h1>
+
+
+        <form action="">
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite Seu Nome...">
+            
+            <p></p>
+            <label for="E-mail">E-mail</label>
+            <input type="text" id="E-mail" name="E-mail" placeholder="Digite seu E-mail...">
+           
+            <p></p>
+            <label for="tel">Telefone</label>
+            <input type="text" id="tel" name="tel" placeholder="Telefone (opcional)...">
+
+            
+                <h3>Endereço:</h3>
+                    <label for="logradouro">Logradouro</label>
+                    <input type="text" id="logradouro" name="logradouro" placeholder="Digite o Logradouro...">
+
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero" name="numero" placeholder="Digite o Número...">
+
+                    <label for="bairro">Bairro (opcional)</label>
+                    <input type="text" id="bairro" name="bairro" placeholder="Digite o Bairro...">
+
+                    <label for="ce">Cidade e Estado</label>
+                    <input type="text" id="ce" name="ce" placeholder="Digite a Cidade e o Estado...">    
+                    
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" name="cep" placeholder="Digite o CEP...">
+
+                
+
+            <h3>Estado Civil:</h3>
+
+            <label for="ec">Estado civil</label>
+            <select name="ec" id="ec">
+                <option value="1" >Solteiro(a)</option>
+                <option value="2" >Casado(a)</option>
+                <option value="3" >Divorciado(a)</option>
+                <option value="4" >Viúvo(a)</option>
+                <option value="5">Separado(a)</option>
+            </select>
+            
+            <p></p>
+
+            <div>
+                <Span>Preferência de contato</Span>
+                <input type="radio" id="email" name="contato" >
+                <label for="contato">E-mail</label>
+                <input type="radio" id="telefone" name="contato" >
+                <label for="contato">Telefone</label>
+            </div>
+
+            <p></p>
+
+            <div>
+                <input type="checkbox" name="Concordo" id="Concordo">
+                <label for="checkbox">Li e Concordo</label>
+            </div>
+
+            <p></p>
+
+            <div>
+                <button type="reset">Reiniciar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+
+
+    
+</body>
+</html>

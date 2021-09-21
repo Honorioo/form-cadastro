@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+form > * {
+    display: block;
+}
+
+body{
+    background-color: rgb(182, 180, 179);;
+    font-family: 'Open Sans', sans-serif;
+}
+
